@@ -1,0 +1,93 @@
+OPERADORES LÓGICOS E RELACIONAIS.
+===============================================================================================================
+EXERCÍCIOS PRÁTICOS - AULAS 8
+1) Crie um Formulário no qual o usuário Digite:
+- Cinco Valores: 
+	Exemplo de Front-End:
+	- Campo 1: [input] 
+	- Campo 2: [input]
+	- Campo 3: [input]
+	- Campo 4: [input]
+	- Campo 5: [input]
+	[CALCULAR]
+
+- Devera ser feito a multiplicação por 2, dos 2 primeiros números.
+- O Resultado da Multiplicação, somar com os 3 números restantes.
+
+- Retornar uma mensagem com echo, caso o Campo Esteja Vazio.
+- Retornar uma mensagem com echo, da Verificação estipulada:
+	->Se o resultado for acima de 100: ACIMA DE 100!
+	->Se o resultado for abaixo de 100: ABAIXO DE 100!
+	->Se o resultado for igual a 100: IGUAL A 100!
+===============================================================================================================
+2) Crie uma página no qual o usuário digite 3 valores. 
+	Exemplo de Front-End:
+	- Campo 1: [input] 
+	- Campo 2: [input]
+	- Campo 3: [input]
+	[CALCULAR]
+
+Logo após o clique do botão Verificar, é necessário calcular o valor do MEIO por 2.
+R: Valor 2 / 2.
+
+O resultado, deve ser verificado se está entre o primeiro e o último número. 
+Caso esteja, irá mostrar: o numero $resultado está entre o número $valor1 e $valor3. 
+
+Caso contrário: o numero $resultado NÃO está entre o número $valor1 e $valor3.
+===============================================================================================================
+3) Faça uma pagina no qual o usuario digite suas 4 notas. 
+
+Seja calculado a media aritimética e mostre a situação do aluno:
+
+0 a 39 : REPROVADO
+40 a 59: EXAME
+60 para cima : APROVADO
+===============================================================================================================
+4) Crie uma página no qual o usuário digite seu salário e a porcentagem de aumento. Exemplo:
+Salario: _______
+Aumento: _______
+
+Após o clique do botão "Calcular", deverá ser calculado a porcentagem aumentada (fórmula: salario_final = salario +  (salario * aumento) / 100) e exibir o salário final já com o aumento. 
+Verifique e mostre a classificação deste aumento segundo a tabela abaixo:
+
+1 - 0   - 100   : Aumento Nivel 1
+2 - 101 - 200   : Aumento Nivel 2
+3 - 201 - 300   : Aumento Nivel 3
+4 - 301 - 400   : Aumento Nivel 4
+5 - acima de 400: Aumento Nivel 5
+===============================================================================================================
+5) Crie um formulário no qual calcule o IMC (pes / (alt*alt)) do usuário e mostre a classificação:
+
+- Peso:
+- Altura:
+- Btn
+- Campo disabled para o Resultado
+
+- Tratamento dos Dados
+- Calculo
+- Verificação
+
+echo's
+   0  a 20 : Magro
+   21 a 25 : Peso ideal
+   26 a 30 : Obeso
+   acima de 30 : Muito Obeso
+===============================================================================================================
+6) Faca um formulário que contenha as seguintes informação:
+
+Salário: [_________]
+Botão: [Calcular]
+
+Retornar os seguintes resultados:
+1º Aumento: Aumento de 15% do salário: xxx
+2º Aumento: Aumento de 18% do salário: xxx 
+3º Total de aumento: xxxx (soma de todos os aumentos)
+4º Total da soma dos aumentos e o salario: xxx (aumento + pagamento)
+
+Se a soma total dos aumentos estiver:
+
+0 - 100 : exibir a mensagem "Aumento RUIM"
+101 - 200 : exibir a mensagem "Aumento RAZOAVEL"
+201 - 300 : exibir a mensagem "Aumento BOM"
+301 - 400 : exibir a mensagem "Aumento ÓTIMO"
+acima de 401: exibir a mensagem "Aumento EXCELENTE"

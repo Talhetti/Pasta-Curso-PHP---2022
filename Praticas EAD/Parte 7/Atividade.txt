@@ -1,0 +1,54 @@
+CALCULOS E VARIÁVEIS GLOBAIS.
+===============================================================================================================
+EXERCÍCIOS PRÁTICOS - AULAS 7
+1) Crie uma página chamada ex1_calc_ano.php no qual o usuário digitará:
+- Ganho do mês de Jan: ___
+- Ganho do mês de Fev: ___
+- Ganho do mês de Mar: ___
+- Ganho do mês de Abr: ___
+- Ganho do mês de Mai: ___
+- Ganho do mês de Jun: ___
+- Ganho do mês de Jul: ___
+- Ganho do mês de Ago: ___
+- Ganho do mês de Set: ___
+- Ganho do mês de Out: ___
+- Ganho do mês de Nov: ___
+- Ganho do mês de Dez: ___
+BOTÃO CALCULAR
+
+Total de Ganho: [Campo Desabilitado]
+Ao clicar no botão deverá somar todos os ganhos de cada mês, manter os valores nos campos, e exibir resultado final no campo desabilitado
+===============================================================================================================
+2) Crie uma página chamada ex2_calc_logica.php no qual o usuário digitará:
+- Número 1: ___
+- Número 2: ___
+- Número 3: ___
+- Número 4: ___
+- Número 5: ___
+BOTÃO CALCULAR
+
+Resultado Final: [Campo Desabilitado]
+Ao clicar no botão, manter os valores nos campos, deverá somar os 3 primeiros números e o resultado dividir pela multiplicação dos dois ultimos números.
+===============================================================================================================
+3)  Crie uma página chamada ex1_calc_ano.php no qual o usuário digitará:
+- Ganho do mês Jan: __ - Perca do mês Jan: __
+- Ganho do mês Fev: __ - Perca do mês Fev: __
+- Ganho do mês Mar: __ - Perca do mês Mar: __
+- Ganho do mês Abr: __ - Perca do mês Abr: __
+- Ganho do mês Mai: __ - Perca do mês Mai: __
+- Ganho do mês Jun: __ - Perca do mês Jun: __
+- Ganho do mês Jul: __ - Perca do mês Jul: __
+- Ganho do mês Ago: __ - Perca do mês Ago: __
+- Ganho do mês Set: __ - Perca do mês Set: __
+- Ganho do mês Out: __ - Perca do mês Out: __
+- Ganho do mês Nov: __ - Perca do mês Nov: __
+- Ganho do mês Dez: __ - Perca do mês Dez: __
+BOTÃO CALCULAR
+
+Ao clicar no botão deverá calcular, e retornar o Relatório com os seguintes dados:
+- Total de ganho do ano: calculo de todos os ganhos.
+- Total de perca do ano: calculo de todas as percas.
+- Total de lucro do ano: valor do ganho menos as percas.
+- Total de lucro de cada mês: Indentificar individualmente o lucro real de cada mês.
+
+- Manter os valores nos campos, e exibir os resultados nos campos desabilitados
